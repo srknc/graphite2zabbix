@@ -10,7 +10,7 @@ USAGE
 	- item key has to be same with graphite key, like 'web.host1.diskusage', you can choise different item name
 	- Application has to be 'graphite'
 	- add cron entry like this;
-		\* * * * * python graphite2zabbix.py  >> /tmp/graphite2zabbix.log.log 2>&1
+		\ * * * * * python graphite2zabbix.py  >> /tmp/graphite2zabbix.log.log 2>&1
 	- that's all :)
 	- it refresh items list every 10 minutes, be patient
 
