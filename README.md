@@ -1,7 +1,7 @@
 graphite2zabbix
 ===============
 
-A small script to get data from graphite and put them to zabbix server 
+small project to get data from graphite and put them to zabbix server to create triggers.
 
 USAGE
 - edit conf section at the script
